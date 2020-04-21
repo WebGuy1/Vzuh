@@ -1,0 +1,74 @@
+* {
+  font-size: 18px;
+  font-weight: 400;
+}
+nav {
+  background-color: #cccccc;
+  height: 110px;
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn {
+  font-weight: 400;
+}
+.btn-1 {
+  background-color: #c95d63;
+  border: 1px solid #c95d63;
+  color: #ffffff;
+}
+.btn-1:hover {
+  border: 1px solid #c95d63;
+  color: #c95d63;
+  background-color: inherit;
+}
+.btn-1:focus {
+  border: 1px solid #c95d63;
+  color: #c95d63;
+  background-color: inherit;
+}
+.btn-1:active {
+  border: 1px solid #c95d63 !important;
+  color: #c95d63 !important;
+}
+.btn-1-outline {
+  border: 1px solid #c95d63;
+  color: #c95d63;
+}
+.btn-1-outline:hover {
+  background-color: #c95d63;
+  color: #ffffff;
+  border: 1px solid #c95d63;
+}
+.tags {
+  background: #f9f9f9;
+  height: 66px;
+  width: 100%;
+}
+.tags .tag {
+  width: 4vw;
+  height: 4vh;
+  text-align: center;
+  border-radius: 7px;
+  border: 2px solid #9DA3A4;
+}
+.tags .tag:hover {
+  color: #ffffff;
+}
+.tags .tag a {
+  color: #9DA3A4;
+}
+.filter-panel {
+  height: 45px;
+  border-radius: 23px;
+}
+.btn-filter {
+  border-radius: 23px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+.card a {
+  color: inherit;
+}
+.card:hover .card-title {
+  text-decoration: underline;
+}

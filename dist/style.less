@@ -1,0 +1,91 @@
+@grey: #cccccc;
+@light-grey: #f9f9f9;
+@dark-grey: #9DA3A4;
+@white: #ffffff;
+@blue: #3e92cc;
+@text-dark: #535353;
+@black: #000000;
+@rose: #c95d63;
+
+*{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+nav{
+  background-color: @grey;
+  height: 110px;
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn{
+  font-weight: 400;
+}
+.btn-1{
+  background-color: @rose;
+  border: 1px solid @rose;
+  color: @white;
+  &:hover{
+    border: 1px solid @rose;
+    color: @rose;
+    background-color: inherit;
+  }
+  &:focus{
+    border: 1px solid @rose;
+    color: @rose;
+    background-color: inherit;
+  }
+  &:active{
+    border: 1px solid @rose !important;
+    color: @rose !important;
+  }
+}
+.btn-1-outline{
+  border: 1px solid @rose;
+  color: @rose;
+  &:hover{
+    background-color: @rose;
+    color: @white;
+    border: 1px solid @rose;
+  }
+}
+.tags{
+  background: @light-grey;
+  height: 66px;
+  width:100%;
+    .tag{
+      width: 4vw;
+      height: 4vh;
+      text-align: center;
+      border-radius: 7px;
+      border: 2px solid @dark-grey;
+      &:hover {
+        color:@white;
+      }
+      a{
+        color: @dark-grey;
+      }
+    }
+}
+.filter-panel{
+  height: 45px;
+  border-radius: 23px;
+}
+
+
+.btn-filter{
+  border-radius: 23px;
+  // Needed to center both text  and icons
+  display: inline-flex;
+   vertical-align: middle;
+}
+.card{
+  a{
+    color: inherit;
+  }
+  &:hover{
+    .card-title{
+      text-decoration: underline;
+    }
+  }
+}
